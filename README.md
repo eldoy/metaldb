@@ -11,9 +11,11 @@ npm i metaldb
 ### Usage
 
 ```js
-var metaldb = require('metaldb')
+var database = require('metaldb')
 
-var db = await metaldb.connect('localhost:27017/dbname')
+var mongodbOptions = {}
+
+var db = await database('localhost:27017/dbname', mongodbOptions)
 ```
 
 MIT Licensed. Enjoy!
