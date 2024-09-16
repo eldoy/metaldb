@@ -1,0 +1,18 @@
+{
+  "name": "metaldb",
+  "version": "0.1.0",
+  "description": "Database adapter based on MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec spekk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/metaldb"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.9.0"
+  }
+}
